@@ -279,16 +279,16 @@ function initBuffers(gl,programInfo,gear_id) {
     gearData = babcockGear(32, 6);
     break;
 
-  case 2:
-    gearData = brittanyGear(20,10);
-    break;
+  // case 2:
+  //   gearData = brittanyGear(20,10);
+  //   break;
 
   case 3:
     gearData = bschmitzGear(30, 30);
     break;
 
   case 4:
-    gearData = dtranGear(20, 10);
+    gearData = gear_modelDatTran(20, 10);
     break; 
 
   case 5:
