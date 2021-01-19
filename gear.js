@@ -336,7 +336,7 @@ function initBuffers(gl,programInfo,gear_id) {
   //   break; 
 
   case 16:
-    gearData = gordongear(20, 7, 1, 0.2);
+    gearData = gordonGear(20, 7, 1, 0.2);
     break; 
 
   // case 17:
