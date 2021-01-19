@@ -275,109 +275,109 @@ function initBuffers(gl,programInfo,gear_id) {
     gearData = alexGear(20,5);
     break;
     
-  case 1:
-    gearData = babcockGear(32, 6);
-    break;
+  // case 1:
+  //   gearData = babcockGear(32, 6);
+  //   break;
 
   // case 2:
   //   gearData = brittanyGear(20,10);
   //   break;
 
-  case 3:
-    gearData = bschmitzGear(30, 30);
-    break;
+  // case 3:
+  //   gearData = bschmitzGear(30, 30);
+  //   break;
 
   case 4:
-    gearData = gear_modelDatTran(20, 10);
+    gearData = dtranGear(20, 10);
     break; 
 
-  case 5:
-    gearData = flyGear(20, 5);
-    break;
+  // case 5:
+  //   gearData = flyGear(20, 5);
+  //   break;
 
   case 6:
     gearData = FomichGear(20,16,0.2);
     break; 
 
-  case 7:
-    gearData = smithGear(40,10);
-    break; 
+  // case 7:
+  //   gearData = smithGear(40,10);
+  //   break; 
 
-  case 8:
-    gearData = trentGear(100,7);
-    break; 
+  // case 8:
+  //   gearData = trentGear(100,7);
+  //   break; 
 
-  case 9:
-    gearData = mchughGear(20,4);
-    break; 
+  // case 9:
+  //   gearData = mchughGear(20,4);
+  //   break; 
 
   case 10:
     gearData = phucphamGear(40,20);
     break; 
 
-  case 11:
-    gearData = dSaeleeGear(20,8);
-    break; 
+  // case 11:
+  //   gearData = dSaeleeGear(20,8);
+  //   break; 
 
-  case 12:
-    gearData = shafferGear(20,10);
-    break; 
+  // case 12:
+  //   gearData = shafferGear(20,10);
+  //   break; 
 
-  case 13:
-    gearData = stocksettGear(20,4);
-    break; 
+  // case 13:
+  //   gearData = stocksettGear(20,4);
+  //   break; 
 
-  case 14:
-    gearData = GaryGear(23, 7, 1, 0.05); 
-    break; 
+  // case 14:
+  //   gearData = GaryGear(23, 7, 1, 0.05); 
+  //   break; 
 
-  case 15:
-    gearData = gmontesGear(20, 7, 0.9, 0.4, 0.2, 1);
-    break; 
+  // case 15:
+  //   gearData = gmontesGear(20, 7, 0.9, 0.4, 0.2, 1);
+  //   break; 
 
   case 16:
-    gearData = gordonGear(20, 7, 1, 0.2);
+    gearData = gordongear(20, 7, 1, 0.2);
     break; 
 
-  case 17:
-    gearData = jHuntGear(36,3);
-    break; 
+  // case 17:
+  //   gearData = jHuntGear(36,3);
+  //   break; 
 
-  case 18:
-    gearData = mnguyenGear(20, 20);          
-    break; 
+  // case 18:
+  //   gearData = mnguyenGear(20, 20);          
+  //   break; 
 
-  case 19:
-    gearData = sschulerGear(20,12);  
-    break; 
+  // case 19:
+  //   gearData = sschulerGear(20,12);  
+  //   break; 
 
   case 20:
     gearData = stran(20, 5, 0.15);
     break; 
 
-  case 21:
-    gearData = woulfgGear(25, 6);
-    break; 
+  // case 21:
+  //   gearData = woulfgGear(25, 6);
+  //   break; 
 
-  case 22:
-    gearData = creatediemVuGear(20,10);  
-    break; 
+  // case 22:
+  //   gearData = creatediemVuGear(20,10);  
+  //   break; 
 
-  case 23:
-    gearData = keroGear(20, 3); 
-    break; 
+  // case 23:
+  //   gearData = keroGear(20, 3); 
+  //   break; 
 
-  case 24:
-    gearData = lairdGear(40, 2, .2);;
-    break; 
+  // case 24:
+  //   gearData = lairdGear(40, 2, .2);;
+  //   break; 
 
-  case 25:
-    gearData = patrickMoyGear(40, 25); 
-    break; 
+  // case 25:
+  //   gearData = patrickMoyGear(40, 25); 
+  //   break; 
 
-  case 26:
-    gearData = nheimb(100, 4, 2);
-    break;     
+  // case 26:
+  //   gearData = nheimb(100, 4, 2);
+  //   break;     
 
   case 27:
     gearData = createGear();  // the starting gear for HW4
